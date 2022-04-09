@@ -5,8 +5,8 @@ import { waitForTx, initEnv, getAddrs, ZERO_ADDRESS } from './helpers/utils';
 
 task('create-profile', 'creates a profile').setAction(async ({}, hre) => {
     const [governance, , user] = await initEnv(hre);
-    const address = getAddrs();
-    const lensHub = LensHub__factory.connect(address['lensHub proxy'], governance);
+    const addresses = getAddrs();
+    const lensHub = LensHub__factory.connect(addresses['lensHub proxy'], governance);
     await waitForTx(lensHub.whitelistProfileCreator(user.address, true));
 
     const inputStruct: CreateProfileDataStruct = {
