@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockLensHubV2Storage",
+  "sourceName": "contracts/mocks/MockLensHubV2Storage.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201cb8c96eb786feccaad82336712f91f4143585348845314e919a14edfee2b71f64736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212201cb8c96eb786feccaad82336712f91f4143585348845314e919a14edfee2b71f64736f6c634300080a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
